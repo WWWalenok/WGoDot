@@ -1,0 +1,150 @@
+[gd_scene format=3 uid="uid://c5ikin3hg60ck"]
+
+[node name="Rigging" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="HBoxContainer1" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="ButtonSelectObj" type="Button" parent="VBoxContainer/HBoxContainer1"]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+text = "Select Object file"
+
+[node name="LineEditSelectObj" type="LineEdit" parent="VBoxContainer/HBoxContainer1"]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+editable = false
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="ButtonSelectSkeleton" type="Button" parent="VBoxContainer/HBoxContainer2"]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+text = "Select Skeleton file"
+
+[node name="LineEditSelectSkeleton" type="LineEdit" parent="VBoxContainer/HBoxContainer2"]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+editable = false
+
+[node name="HBoxContainer3" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="ButtonSelectState" type="Button" parent="VBoxContainer/HBoxContainer3"]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+text = "Select State"
+
+[node name="LineEditSelectState" type="LineEdit" parent="VBoxContainer/HBoxContainer3"]
+custom_minimum_size = Vector2(95, 0)
+layout_mode = 2
+editable = false
+
+[node name="ButtonResetState" type="Button" parent="VBoxContainer/HBoxContainer3"]
+custom_minimum_size = Vector2(95, 0)
+layout_mode = 2
+text = "Reset"
+
+[node name="HBoxContainer5" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="ButtonExportSkeleton" type="Button" parent="VBoxContainer/HBoxContainer5"]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+text = "Export Skeleton"
+
+[node name="LineEditExportSkeleton" type="LineEdit" parent="VBoxContainer/HBoxContainer5"]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+
+[node name="HBoxContainer4" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="ButtonSelectAnimFolder" type="Button" parent="VBoxContainer/HBoxContainer4"]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+text = "Select Animation folder"
+
+[node name="LineEditSelectAnimFolder" type="LineEdit" parent="VBoxContainer/HBoxContainer4"]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+
+[node name="HBoxContainer6" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="ButtonExportAnimation" type="Button" parent="VBoxContainer/HBoxContainer6"]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+text = "Export Animation"
+
+[node name="LineEditExportAnimation" type="LineEdit" parent="VBoxContainer/HBoxContainer6"]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+text = ""
+
+[node name="HBoxContainer7" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="ButtonGenerate" type="Button" parent="VBoxContainer/HBoxContainer7"]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+text = "Generate"
+
+[node name="ButtonGenerateAnimation" type="Button" parent="VBoxContainer/HBoxContainer7"]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+text = "Generate Animation"
+
+[node name="HBoxContainer8" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="ButtonSelect2dtexture" type="Button" parent="VBoxContainer/HBoxContainer8"]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+text = "Select 2d texture"
+
+[node name="LineEditSelect2dtexture" type="LineEdit" parent="VBoxContainer/HBoxContainer8"]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+editable = false
+
+[node name="HBoxContainer10" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="ButtonSelectSkeleton2d" type="Button" parent="VBoxContainer/HBoxContainer10"]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+text = "Select Skeleton file"
+
+[node name="LineEditSelectSkeleton2d" type="LineEdit" parent="VBoxContainer/HBoxContainer10"]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+editable = false
+
+[node name="HBoxContainer9" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="ButtonGenerate2d" type="Button" parent="VBoxContainer/HBoxContainer9"]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+text = "Generate 2d"
+
+[node name="ButtonSaveViewport" type="Button" parent="VBoxContainer/HBoxContainer9"]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+text = "Save Viewport"

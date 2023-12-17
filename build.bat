@@ -1,0 +1,1 @@
+.\scons\scons debug_symbols=true
